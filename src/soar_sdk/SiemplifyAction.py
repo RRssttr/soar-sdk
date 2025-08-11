@@ -1098,7 +1098,7 @@ class SiemplifyAction(Siemplify, PersistentFileStorageMixin):
         or not. This is used
         by the code to check whether we should we recreate the data in various cases
         described by the code.
-        * This call is meant to be used by internal actions only.
+        * This call is meant to be used by internal test_actions only.
         * This call is meant to be used with a polling mechanism such as Async
         action, as the first request might
         return status "In progress", and further requests are meant to sent to tell

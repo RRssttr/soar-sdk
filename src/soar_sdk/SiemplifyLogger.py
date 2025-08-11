@@ -314,7 +314,7 @@ class ConnectorsFileLogsCollector(FileLogsCollector):
 
 
 class ActionsFileLogsCollector(FileLogsCollector):
-    """Collect actions logs to a file"""
+    """Collect test_actions logs to a file"""
 
     def __init__(self, file_dir: str, context_data: dict[str, Any]) -> None:
         super(ActionsFileLogsCollector, self).__init__(file_dir)
